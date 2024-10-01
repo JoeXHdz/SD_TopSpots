@@ -1,0 +1,105 @@
+/* General Reset and Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f7f6;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Container for content */
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  header {
+    background-color: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+  }
+  
+  /* Table Styling */
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table Headers */
+  thead {
+    background-color: #34495e;
+    color: white;
+    text-align: left;
+  }
+  
+  thead th {
+    padding: 15px;
+    font-size: 1.1rem;
+  }
+  
+  /* Table Rows */
+  tbody tr {
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tbody tr:hover {
+    background-color: #f9f9f9;
+  }
+  
+  /* Table Cells */
+  tbody td {
+    padding: 15px;
+    font-size: 1rem;
+  }
+  
+  /* Link Styling */
+  tbody td a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    transition: color 0.2s;
+  }
+  
+  tbody td a:hover {
+    color: #2c3e50;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    header h1 {
+      font-size: 2rem;
+    }
+  
+    table {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header h1 {
+      font-size: 1.8rem;
+    }
+  
+    table {
+      font-size: 0.8rem;
+    }
+  }
